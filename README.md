@@ -1,5 +1,5 @@
 <h1 align="center">Rolling Scopes School</h1>
-
+<p align="center">Visit <a href="https://school.rollingscopes.com/">Rolling Scopes School</a> to learn web development for free.</p><br>
 <div align="center">
   <sub>Student: 
   <a href="https://github.com/Bachyla">Uladzimir Bachyla</a>
