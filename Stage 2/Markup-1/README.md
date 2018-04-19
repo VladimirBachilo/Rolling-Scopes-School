@@ -13,7 +13,7 @@
           Do you know what's freaking awesome? <br>
     Scroll down to find out.
   </h2>
-  <img src="https://github.com/Bachyla/Rolling-Scopes-School/blob/master/Stage%202/Markup-1/assets/images/cook.png" alt="LAMBDA">
+  <img src="https://github.com/Bachyla/Rolling-Scopes-School/blob/master/Stage%202/Markup-1/assets/images/background_promo.png" alt="LAMBDA">
   <h2>
             :tada: SNAP! :tada:<br>
     :tada: This repo, of course! :tada:
