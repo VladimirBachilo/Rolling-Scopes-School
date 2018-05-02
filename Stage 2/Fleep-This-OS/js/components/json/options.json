@@ -1,0 +1,46 @@
+{
+    "options" : {
+        "windows" : {
+            "card" : 0,
+            "logo_img" : "img/windows_logo.png",
+            "logo_img_small" : "img/windows_logo_small.png",
+            "background_img" :"img/bg_windows.png"
+        },
+        "ios" : {
+            "card" : 0,
+            "logo_img" : "img/ios_logo.png",
+            "logo_img_small" : "img/ios_logo_small.png",
+            "background_img" : "img/bg_ios.jpg"
+        },
+        "ubuntu" : {
+            "card" : 0,
+            "logo_img" : "img/ubuntu_logo.png",
+            "logo_img_small" : "img/ubuntu_logo_small.png",
+            "background_img" : "img/bg_ubuntu.jpg"
+        },
+        "diff-easy" : {
+            "card" : 1,
+            "logo_img" : "img/diff-easy.png",
+            "size" : {
+                "rows" : 3,
+                "cols" : 4
+            }
+        },
+        "diff-medium" : {
+            "card" : 1,
+            "logo_img" : "img/diff-medium.png",
+            "size" : {
+                "rows" : 4,
+                "cols" : 5
+            }
+        },
+        "diff-hard" : {
+            "card" : 1,
+            "logo_img" : "img/diff-hard.png",
+            "size" : {
+                "rows" : 4,
+                "cols" : 8
+            }
+        }
+    }
+}

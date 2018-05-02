@@ -1,0 +1,55 @@
+*{padding:0;margin:0;}
+html, body{width:100%;height:100%;overflow:hidden;background: #1c92d2;background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);background: linear-gradient(to right, #f2fcfe, #1c92d2);background-size:100% 100%;color:#333;font-weight:bold;letter-spacing:2px;text-align:center;font-family:LotsOfDotz, Courier, Times;transition:500ms;}
+@font-face{font-family:"LotsOfDotz";src:url("../fonts/LOTSOFDOTZ.TTF");}
+.img-front img,
+.img-back img{border-radius:10px;width:80%;height:80%;margin-top:10%;}
+.correct{transition:500ms;opacity:0;}
+.game-init,
+.game-end{width:700px;height:500px;position:absolute;top:50%;left:50%;margin:-270px 0 0 -360px;color:#423b3b;}
+.game-title{opacity:0;transition:500ms;width:100%;height:70px;font-size:40px;}
+.game-menu{opacity:0;transition:500ms;width:inherit;height:340px;}
+.game-menu label{height:330px;width:330px;-webkit-perspective:1000px;perspective:1000px;}
+.game-menu label .card-name{padding-top:150px;}
+.game-menu input{display:none;}
+label.card-type{float:left;}
+label.game-difficulty{float:right;}
+.game-play{width:800px;height:650px;position:absolute;top:50%;left:50%;margin-top:-300px;margin-left:-390px;color:#757575;}
+.game-field{opacity:0;transition:500ms;width:inherit;height:inherit;}
+.game-field label{height:150px;width:150px;margin:10px;-webkit-perspective:1000px;perspective:1000px;}
+.game-field input{display:none;}
+label.game-playing{float:left;}
+.card{width:100%;height:100%;position:relative;z-index:20;transition:all 600ms;-webkit-transition:all 600ms;transform-style:preserve-3d;-webkit-transform-style:preserve-3d;}
+.card-front,
+.card-back{position:absolute;top:0;left:0;background-color:#fff;border-radius:10px;-webkit-backface-visibility:hidden;backface-visibility:hidden;transition:400ms;}
+.card-front:hover,
+.card-back:hover{color:#333;background-color:#f2f2f2;box-shadow:0 5px 5px rgba(0,0,0,0.1);}
+.card-back{transform:rotateY(180deg);-webkit-transform:rotateY(180deg);}
+.card-back img{margin-top:10px;}
+.card-name, .card-score{padding-top:130px;}
+.card-tries{padding-top:15px;}
+.card-change-type{padding-top:70px;}
+.card-change-diff{padding-top:26px;}
+:checked + .card{transform:rotateY(180deg);-webkit-transform:rotateY(180deg);}
+.game-menu .card-front,
+.game-menu .card-back{width:97%;height:97%;border:5px solid #757575;}
+.game-menu .card-front:hover,
+.game-menu .card-back:hover{border:5px solid #333;cursor: pointer;}
+#choice{height:106px;font-size:18px;line-height:107px;color:#423b3b;text-decoration:none;text-align:center;transition:400ms;}
+#choice:hover{color:#333;background:#fff;}
+.game-playing .card-front,
+.game-playing .card-back{width:95%;height:95%;border:5px solid #757575;}
+.game-playing .card-front:hover,
+.game-playing .card-back:hover{border:5px solid #333;}
+.game-start-button{opacity:0;transition:500ms;height:60px;margin-top:20px;transition:400ms;border-radius:10px;border:5px solid #757575;background-color: #fff;}
+.home-button,
+.quit-button{height:28px;width:80px;margin-top:6px;transition:400ms;border-radius:10px;background-color:#fff;border:5px solid #757575;}
+.home-button{float:left;margin-left:5px;}
+.quit-button{float:right;margin-right:5px;}
+.game-start-button:hover,
+.home-button:hover,
+.quit-button:hover{color:#333;border:5px solid #333;background-color:#f2f2f2;box-shadow:0 1px 1px rgba(0,0,0,0.1);cursor: pointer;}
+.game-start-button p{height:inherit;padding-top:20px;}
+.home-button img,
+.quit-button img{height:26px;width:26px;margin-top:1px;}
+.timer{width:0%;height:5px;position:absolute;top:0;left:0;background:#333;z-index:10;}
+@keyframes timer{100%{width:100%;}}

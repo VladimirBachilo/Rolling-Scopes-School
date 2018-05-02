@@ -1,0 +1,206 @@
+{
+    "icons" : {
+        "play_icons" : {
+            "home_icon" : "img/home_icon.png",
+            "quit_icon" : "img/quit_icon.png"
+        },
+        "win_icons" : [
+            {
+                "id" : 1,
+                "img": "img/win_icons/win_1.png"
+            },
+            {
+                "id" : 2,
+                "img" : "img/win_icons/win_2.png"
+            },
+            {
+                "id" : 3,
+                "img" : "img/win_icons/win_3.png"
+            },
+            {
+                "id" : 4,
+                "img" : "img/win_icons/win_4.png"
+            },
+            {
+                "id" : 5,
+                "img" : "img/win_icons/win_5.png"
+            },
+            {
+                "id" : 6,
+                "img" : "img/win_icons/win_6.png"
+            },
+            {
+                "id" : 7,
+                "img" : "img/win_icons/win_7.png"
+            },
+            {
+                "id" : 8,
+                "img" : "img/win_icons/win_8.png"
+            },
+            {
+                "id" : 9,
+                "img" : "img/win_icons/win_9.png"
+            },
+            {
+                "id" : 10,
+                "img" : "img/win_icons/win_10.png"
+            },
+            {
+                "id" : 11,
+                "img" : "img/win_icons/win_11.png"
+            },
+            {
+                "id" : 12,
+                "img" : "img/win_icons/win_12.png"
+            },
+            {
+                "id" : 13,
+                "img" : "img/win_icons/win_13.png"
+            },
+            {
+                "id" : 14,
+                "img" : "img/win_icons/win_14.png"
+            },
+            {
+                "id" : 15,
+                "img" : "img/win_icons/win_15.png"
+            },
+            {
+                "id" : 16,
+                "img" : "img/win_icons/win_16.png"
+            }
+        ],
+        "ios_icons" : [
+            {
+                "id" : 1,
+                "img" : "img/ios_icons/ios_1.png"
+            },
+            {
+                "id" : 2,
+                "img" : "img/ios_icons/ios_2.png"
+            },
+            {
+                "id" : 3,
+                "img" : "img/ios_icons/ios_3.png"
+            },
+            {
+                "id" : 4,
+                "img" : "img/ios_icons/ios_4.png"
+            },
+            {
+                "id" : 5,
+                "img" : "img/ios_icons/ios_5.png"
+            },
+            {
+                "id" : 6,
+                "img" : "img/ios_icons/ios_6.png"
+            },
+            {
+                "id" : 7,
+                "img" : "img/ios_icons/ios_7.png"
+            },
+            {
+                "id" : 8,
+                "img" : "img/ios_icons/ios_8.png"
+            },
+            {
+                "id" : 9,
+                "img" : "img/ios_icons/ios_9.png"
+            },
+            {
+                "id" : 10,
+                "img" : "img/ios_icons/ios_10.png"
+            },
+            {
+                "id" : 11,
+                "img" : "img/ios_icons/ios_11.png"
+            },
+            {
+                "id" : 12,
+                "img" : "img/ios_icons/ios_12.png"
+            },
+            {
+                "id" : 13,
+                "img" : "img/ios_icons/ios_13.png"
+            },
+            {
+                "id" : 14,
+                "img" : "img/ios_icons/ios_14.png"
+            },
+            {
+                "id" : 15,
+                "img" : "img/ios_icons/ios_15.png"
+            },
+            {
+                "id" : 16,
+                "img" : "img/ios_icons/ios_16.png"
+            }
+        ],
+        "ubu_icons" : [
+            {
+                "id" : 1,
+                "img" : "img/ubu_icons/ubu_1.png"
+            },
+            {
+                "id" : 2,
+                "img" : "img/ubu_icons/ubu_2.png"
+            },
+            {
+                "id" : 3,
+                "img" : "img/ubu_icons/ubu_3.png"
+            },
+            {
+                "id" : 4,
+                "img" : "img/ubu_icons/ubu_4.png"
+            },
+            {
+                "id" : 5,
+                "img" : "img/ubu_icons/ubu_5.png"
+            },
+            {
+                "id" : 6,
+                "img" : "img/ubu_icons/ubu_6.png"
+            },
+            {
+                "id" : 7,
+                "img" : "img/ubu_icons/ubu_7.png"
+            },
+            {
+                "id" : 8,
+                "img" : "img/ubu_icons/ubu_8.png"
+            },
+            {
+                "id" : 9,
+                "img" : "img/ubu_icons/ubu_9.png"
+            },
+            {
+                "id" : 10,
+                "img" : "img/ubu_icons/ubu_10.png"
+            },
+            {
+                "id" : 11,
+                "img" : "img/ubu_icons/ubu_11.png"
+            },
+            {
+                "id" : 12,
+                "img" : "img/ubu_icons/ubu_12.png"
+            },
+            {
+                "id" : 13,
+                "img" : "img/ubu_icons/ubu_13.png"
+            },
+            {
+                "id" : 14,
+                "img" : "img/ubu_icons/ubu_14.png"
+            },
+            {
+                "id" : 15,
+                "img" : "img/ubu_icons/ubu_15.png"
+            },
+            {
+                "id" : 16,
+                "img" : "img/ubu_icons/ubu_16.png"
+            }
+        ]
+    }
+}
