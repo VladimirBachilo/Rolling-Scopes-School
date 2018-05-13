@@ -1,6 +1,6 @@
 | Deadline  | Folder name |
 |-----------|-------------|
-| 23:59 19.11.2017 | presentation |
+| 23:59 13.04.2018 | presentation |
 <br/>
 <h1 align="center">Angular introduction</h1>
 
