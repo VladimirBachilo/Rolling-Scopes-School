@@ -11,5 +11,5 @@
     * Speaker notes for each slide is obligatory
     * Language - English.  
 
-## Inspiration
+## Online version
 * [Live preview](https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Presentation/index.html) - Check this out.
