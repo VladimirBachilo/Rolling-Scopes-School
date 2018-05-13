@@ -1,1 +1,18 @@
-# rss-presentation
+| Deadline  | Folder name |
+|-----------|-------------|
+| 23:59 19.11.2017 | presentation |
+<br/>
+<h1 align="center">Angular introduction</h1>
+
+## Requirements
+<div align="center">
+    * 8 - 20 minutes for presentation
+    * Talk rehearsal within your subgroup is obligatory
+    * Speaker notes for each slide is obligatory
+    * Language - English.  
+  <br/>
+  <br/>
+</div>
+
+## Inspiration
+* [Live preview](https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Presentation/index.html) - Check this out.
