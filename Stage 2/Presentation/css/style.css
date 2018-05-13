@@ -1,0 +1,10 @@
+.reveal section .logo {
+	background: inherit;
+	border: transparent;
+	box-shadow: none;
+}
+
+.sevice-block {
+	display: inline-block;
+	width: 49%;
+}

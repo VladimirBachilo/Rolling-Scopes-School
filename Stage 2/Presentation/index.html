@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>Angular</title>
+      <link rel="icon" type="img/png" href="img/favicon.ico">
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/blood.css">
+      <!-- <link rel="stylesheet" href="css/highlight/default.css"> -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- <script src="js/reveal.js"></script> -->
+      <!-- <script src="js/highlight.pack.js"></script> -->
+   </head>
+   <body>
+      <div class="reveal">
+         <div class="slides">
+            <section>
+               <img src="img/angular2-logo.png" alt="" class="logo">
+               <h2>Angular</h2>
+            </section>
+            <section>
+               <h3>What is Angular?</h3>
+               <p class="fragment">Client side Javascript framework, create and maintained by Google, used to build powerful single page applications(SPA)</p>
+            </section>
+            <section>
+               <h3>Features</h3>
+               <ul>
+                  <li class="fragment">
+                     React speed of working
+                  </li>
+                  <li class="fragment">
+                     Mobile first
+                  </li>
+                  <li class="fragment">
+                     Easy to learn
+                  </li>
+                  <li class="fragment">
+                     Easy to maintain
+                  </li>
+                  <li class="fragment">
+                     Typescript
+                  </li>
+               </ul>
+            </section>
+            <section>
+               <h3>Main construction blocks</h3>
+               <ul class="fragment">
+                  <li>Modules</li>
+                  <li>Components</li>
+                  <li>Templates</li>
+                  <li>Metadata</li>
+                  <li>Data Binding</li>
+                  <li>Directives</li>
+                  <li>Services</li>
+                  <li>Dependency Injection</li>
+               </ul>
+            </section>
+            <section>
+               <h3>Architecture</h3>
+               <svg width="800" height="480" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                     <title>background</title>
+                     <rect fill="#ffffff" id="canvas_background" height="482" width="802" y="-1" x="-1"/>
+                     <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                        <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                     </g>
+                  </g>
+                  <g>
+                     <title>Layer 1</title>
+                     <rect stroke="#000" id="svg_1" height="105" width="152.999997" y="333" x="347.5" stroke-width="1.5" fill="#fff"/>
+                     <rect stroke-dasharray="5,5" id="svg_2" height="63" width="102" y="35.5" x="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <rect stroke-dasharray="5,5" id="svg_3" height="63" width="102" y="34.5" x="185.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <rect stroke-dasharray="5,5" id="svg_4" height="63" width="102" y="118.5" x="62.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <rect stroke-dasharray="5,5" id="svg_5" height="63" width="102" y="119.5" x="185.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <text stroke="#000" transform="matrix(1,0,0,1.2592592239379883,0,-6.8703694343566895) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_6" y="55.647059" x="70.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Module</text>
+                     <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_7" y="77.5" x="61.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Component</text>
+                     <text stroke="#000" transform="matrix(1,0,0,1.2592592239379883,0,-6.8703694343566895) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_8" y="55.647059" x="195.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Module</text>
+                     <text stroke="#000" transform="matrix(1,0,0,1.2592592239379883,0,-6.8703694343566895) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_9" y="119.97059" x="69.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Module</text>
+                     <text stroke="#000" transform="matrix(1,0,0,1.2592592239379883,0,-6.8703694343566895) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_10" y="119.97059" x="196.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Module</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_11" y="160.5" x="80.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Service</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_12" y="80.5" x="200.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Function</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_13" y="160.5" x="215.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Value</text>
+                     <rect id="svg_14" height="190" width="149" y="242.5" x="93.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="22" id="svg_16" y="269.5" x="131.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#845335">Injector</text>
+                     <rect id="svg_21" height="41" width="99" y="294.5" x="123.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="22" id="svg_22" y="320.5" x="137.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#729C62">Service</text>
+                     <rect id="svg_23" height="41" width="99" y="354.5" x="124.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="22" id="svg_24" y="382.5" x="137.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#729C62">Service</text>
+                     <line stroke-dasharray="5,5" stroke-linecap="null" stroke-linejoin="null" id="svg_25" y2="373.5" x2="346.53658" y1="373.5" x1="223.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="22" id="svg_26" y="375" x="370.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#33666C">Component</text>
+                     <rect stroke="#000" id="svg_27" height="105" width="152.999997" y="156" x="348.5" stroke-width="1.5" fill="#fff"/>
+                     <path id="svg_28" d="m552.5,125" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <path id="svg_31" d="m324.5,249" opacity="0.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
+                     <path id="svg_32" d="m343.09803,373.184975l-8.898616,-10.999994l15.999998,10.999994l-15.999998,10.999988l8.898616,-10.999988z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
+                     <ellipse stroke="#000" ry="14.5" rx="52.000003" id="svg_33" cy="297.5" cx="431.5" stroke-opacity="null" stroke-width="1.5" fill="#ffffff"/>
+                     <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_35" y="303" x="400.5" stroke-opacity="null" stroke-width="0" fill="#000000">Metadata</text>
+                     <line stroke-linecap="null" stroke-linejoin="null" id="svg_38" y2="331.028566" x2="494.5" y1="261" x1="494.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_39" y2="332.064256" x2="362.5" y1="262" x1="362.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+                     <path transform="rotate(90 493.7955322265625,327.34994506835943) " id="svg_44" d="m494.638049,327.349946l-8.342488,-4.500003l15.000061,4.500003l-15.000061,4.500001l8.342488,-4.500001z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
+                     <path transform="rotate(-90 361.79553222656256,268.3499450683594) " id="svg_45" d="m362.638049,268.349946l-8.342487,-4.500003l15.000061,4.500003l-15.000061,4.5l8.342487,-4.5z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_46" y="289" x="287.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Property</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_47" y="308" x="290.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Binding</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_48" y="286" x="517.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Event</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_49" y="302" x="508.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">Binding</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="26" id="svg_50" y="411" x="409.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">{ }</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="26" id="svg_51" y="225" x="410.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">&lt; &gt;</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="22" id="svg_53" y="191" x="383.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#33666C">Template</text>
+                     <rect id="svg_54" height="66" width="130" y="158" x="600.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="20" id="svg_55" y="181" x="632.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#0000bf">Directive</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="20" id="svg_56" y="209" x="657.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">{ }</text>
+                     <line stroke-dasharray="5,5" stroke-linecap="null" stroke-linejoin="null" id="svg_57" y2="187" x2="601.224621" y1="187" x1="501.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <path transform="rotate(-180 506.7955322265625,186.34994506835938) " id="svg_58" d="m507.638049,186.349946l-8.342487,-4.500003l15.000061,4.500003l-15.000061,4.5l8.342487,-4.5z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
+                     <ellipse stroke="#000" ry="14.5" rx="52.000003" id="svg_59" cy="129.5" cx="671.5" stroke-opacity="null" stroke-width="1.5" fill="#ffffff"/>
+                     <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_60" y="135" x="638.5" stroke-opacity="null" stroke-width="0" fill="#000000">Metadata</text>
+                  </g>
+               </svg>
+            </section>
+            <section>
+               <h4>Modules</h4>
+               <pre>
+						<code class="javascript">
+import { ngModule } from '@angular-core/core';
+import { BrowserModule } from '@angular-core/platform-browser';
+@NgModule({
+	declarations: [ AppComponent ],
+	exports: [ AppComponent ],
+	imports: [ BrowserModule ],
+	providers: [ Logger ],
+	bootstrap: [ AppComponent ]
+})
+export class AppModule{ }
+					    </code>
+				    </pre>
+            </section>
+            <section>
+               <h4>Components</h4>
+               <pre>
+						<code class="javascript">
+export class HeroListComponent implements OnInit {
+	heroes: Hero[];
+	selectedHero: Hero;
+
+	constructor(private service: HeroService) { }
+
+	ngOnInit() {
+		this.heroes = this.service.getHeroes();
+	}
+
+	selectHero(hero: Hero) { this.selected = hero; }
+}
+						</code>
+					</pre>
+            </section>
+            <section>
+               <h4>Templates</h4>
+               <pre>
+						<code class="javascript">
+<h2>Hero List</h2>
+
+<p><i>Pick a hero from the list</i></p>
+<ul>
+	<li *ngFor="let hero of heroes" (click)="selected(hero)">
+		{{hero.name}}
+	</li>
+</ul>
+
+<hero-detail *ngIf="selectedHero" [hero]="selectedHero"></hero-detail>
+						</code>
+					</pre>
+            </section>
+            <section>
+               <h4>Metadata</h4>
+               <pre>
+						<code class="javascript">
+@Component({
+	moduleId: module.id,
+	selector: 'hero-list',
+	templateUrl: 'hero-list.component.html',
+	providers: [ HeroService ]
+})
+export class HeroListComponent implements OnInit {
+	/*  ...  */
+}
+						</code>
+					</pre>
+            </section>
+            <section>
+               <h4>Data Binding</h4>
+               <svg width="800" height="480" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                     <title>background</title>
+                     <rect fill="#fff" id="canvas_background" height="482" width="802" y="-1" x="-1"/>
+                     <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                        <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+                     </g>
+                  </g>
+                  <g>
+                     <title>Layer 1</title>
+                     <rect id="svg_1" height="277" width="147" y="122" x="50.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <rect id="svg_4" height="277" width="147" y="122" x="577.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+                     <line stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="163" x2="577.511842" y1="163" x1="197.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <line stroke-linecap="null" stroke-linejoin="null" id="svg_6" y2="226" x2="580.658344" y1="226" x1="198.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <line stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="293" x2="580.583324" y1="293" x1="196.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <line stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="358" x2="576.505305" y1="358" x1="199.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"/>
+                     <path transform="rotate(180 202.3443603515625,162.68997192382812) " stroke="#fff" id="svg_9" d="m203.242983,162.689975l-8.898616,-15.000004l15.999997,15.000004l-15.999997,14.999996l8.898616,-14.999996z" stroke-width="1.5" fill="#000"/>
+                     <path transform="rotate(180 204.3443603515625,224.68997192382812) " stroke="#fff" id="svg_10" d="m205.242983,224.689975l-8.898615,-15.000004l15.999997,15.000004l-15.999997,14.999996l8.898615,-14.999996z" stroke-width="1.5" fill="#000"/>
+                     <path transform="rotate(180 203.3443603515625,356.6899719238281) " stroke="#fff" id="svg_11" d="m204.242983,356.689975l-8.898615,-15.000004l15.999997,15.000004l-15.999997,14.999996l8.898615,-14.999996z" stroke-width="1.5" fill="#000"/>
+                     <path stroke="#fff" id="svg_12" d="m572.242983,357.689975l-8.898615,-15.000004l15.999997,15.000004l-15.999997,14.999996l8.898615,-14.999996z" stroke-width="1.5" fill="#000"/>
+                     <path stroke="#fff" style="vector-effect: non-scaling-stroke;" id="svg_13" d="m573.242983,293.689975l-8.898615,-15.000004l15.999997,15.000004l-15.999997,14.999996l8.898615,-14.999996z" stroke-width="1.5" fill="#000"/>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_14" y="196.5" x="588.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#000000">Component</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_15" y="200.5" x="92.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#000000">DOM</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_16" y="146.5" x="352.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#000000">{{value}}</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_17" y="210.5" x="318.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#000000">[property] = "value"</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_18" y="279.5" x="324.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#000000">(event) = "handler"</text>
+                     <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_19" y="343.5" x="311.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#000000">[(ng-model)] = "property"</text>
+                  </g>
+               </svg>
+            </section>
+            <section>
+               <h4>Directives</h4>
+               <pre>
+						<code class="javascript">
+<li *ngFor="let hero of heroes"></li>
+
+<hero-detail *ngIf="selectedHero"></hero-detail>
+
+<input [(ngModel)] = "hero.name">
+						</code>
+					</pre>
+            </section>
+            <section>
+               <h4>Servises</h4>
+               <div class="sevice-block">
+                  <p>Creation of servise</p>
+                  <pre>
+							<code class="javascript">
+export class Logger {
+	log(msg: any) { console.log(msg); }
+	error(msg: any) { console.error(msg); }
+}
+							</code>
+						</pre>
+               </div>
+               <div class="sevice-block">
+                  <p>Recieve servise</p>
+                  <pre>
+							<code class="javascript">
+constructor(
+	private backend: BackendService,
+	private logger: Logger
+) { }
+							</code>
+						</pre>
+               </div>
+            </section>
+            <section>
+               <h4>Dependency Injection</h4>
+               <pre>
+						<code class="javascript">
+constructor(private service: HeroService) { }
+						</code>
+					</pre>
+            </section>
+            <section>
+               <h3>to be continued...</h3>
+            </section>
+         </div>
+      </div>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+      <script>
+         Reveal.initialize({
+         	width: "100%",
+         	height: "100%",
+         	margin: 0,
+         	minScale: 1,
+         	maxScale: 1,
+         
+         	dependencies: [
+         		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { 
+         			hljs.tabReplace = '    ';
+         			hljs.initHighlightingOnLoad(); 
+         		} }
+         	]
+         });
+      </script>
+   </body>
+</html>
