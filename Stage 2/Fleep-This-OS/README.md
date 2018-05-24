@@ -8,6 +8,9 @@
 ![forthebadge](http://forthebadge.com/images/badges/designed-in-ms-paint.svg)
 ![forthebadge](http://forthebadge.com/images/badges/fo-real.svg)
 
+<div align="center">
+  <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Fleep-This-OS/index.html"><img src="img/play.png" /></a>
+</div>
 
 ## Description
 <div align="center">
