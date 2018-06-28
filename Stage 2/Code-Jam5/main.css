@@ -113,3 +113,24 @@ div {
 	0% {background-position: 0px 0px;}
 	100% {background-position:  1920px 0px;}
 }
+
+@media only screen and (max-width:1080px) and (orientation:portrait) {
+	.heading h1 {
+		font-size: 35px;
+	}
+	.train {
+		right: -300px;
+	}
+	.moon {
+		left: 80px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.train {
+		right: -700px;
+	}
+	.moon {
+		left: -30px;
+	}
+}
