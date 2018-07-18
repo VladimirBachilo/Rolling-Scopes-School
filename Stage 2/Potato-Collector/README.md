@@ -1,4 +1,4 @@
-<img src="https://github.com/Bachyla/Potato-Collector/blob/master/images/logo.png" alt="PC Logo">
+<img src="https://github.com/Bachyla/Rolling-Scopes-School/blob/master/Stage%202/Potato-Collector/images/logo.png" alt="PC Logo">
 
 # Potato Collector Game
 
@@ -10,7 +10,7 @@ Project of Rolling Scopes School's courses [Web Application Development with Jav
 
 ###### Live
 
-Point your browser to <a href="https://rawgit.com/Bachyla/Potato-Collector/master/index.html">PC Live</a>.
+Point your browser to <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Potato-Collector/index.html">PC Live</a>.
 
 ###### Local
 
