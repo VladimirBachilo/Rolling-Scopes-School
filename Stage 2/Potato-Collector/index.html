@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Potato Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!-- Resources -->
+    <script src="js/resources.js"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- Howler - Audio library -->
+    <script src="bower_components/howler/howler.min.js"></script>
+    <!-- Game Sounds -->
+    <script src="js/sounds.js"></script>
+    <!-- Game application -->
+    <script src="js/app.js"></script>
+
+</head>
+<body>
+
+		<!-- Engine -->
+    <script type="text/javascript" src="js/engine.js"></script>
+
+    <!-- Header -->
+    <header>
+    	<img class="image-responsive" src="images/logo.png">
+    	<a class="js-toggle-music toggle-music on"><i class="fas fa-volume-up"></i>Music On</a>
+    	<a class="js-toggle-music toggle-music off"><i class="fas fa-volume-off"></i>Music Off</a>
+    </header>
+    <!-- /Header -->
+
+    <!-- Footer -->
+    <footer>
+      <a id="howToOpen" class="how-to-link">How to play</a>
+      <a id="skillsList" class="btnSkills">Skills</a>
+      <a id="startScreen-open" class="how-to-link">Main menu</a>
+    </footer>
+    <!-- /Footer -->
+
+		<!-- Start Screen -->
+    <div id="startScreen" class="start-screen overlay">
+    	<div class="content">
+	    	<img class="image-responsive" src="images/logo.png">
+				<a id="playGame" class="button">Play Now!</a>
+        <a id="historyShow" class="button">History</a>
+        <a id="contactsShow" class="button">Contacts</a>
+        <a id="screenshotsShow" class="button">Screenshots</a>
+			</div>
+			<div class="water"></div>
+    </div>
+    <!-- /Start Screen -->
+
+    <!-- History -->
+    <div id="history" class="how-to overlay hidden">
+      <div class="content">
+      <h2 class="heading">History</h2>
+      <img src="images/history.jpeg" alt="Potatoes bush">
+      <p>It's just a story about a little boy who was sent to the village,
+        as it usually happens, to collect potatoes. Unfortunately, the village
+        is not far from Chernobyl, and this year there were many Caloradic
+        beetles on the field. Will our hero be able to collect all the potatoes
+        and not be bitten by big bugs?</p>
+        <a id="historyClose" class="button">Close</a>
+      </div>
+      <div class="grass"></div>
+    </div>
+    <!--/ History -->
+
+    <!-- Contacts -->
+    <div id="contacts" class="how-to overlay hidden">
+      <div class="content colorado-bug">
+      <h2 class="heading">Contacts</h2>
+      <img src="images/colorado-bug.jpg" alt="Colorado bug :)">
+      <p>Here u will find the author of the game:</p>
+      <p><a href="https://github.com/Bachyla" target="_blank"><i class="fab fa-github-alt"></i></a>
+      <a href="https://vk.com/one.crew" target="_blank"><i class="fab fa-vk"></i></a>
+      <a href="https://www.linkedin.com/in/bachyla/" target="_blank"><i class="fab fa-linkedin-in"></i></a></p>
+        <a id="contactsClose" class="button">Close</a>
+      </div>
+      <div class="wood"></div>
+    </div>
+    <!--/ Contacts -->
+
+        <!-- Contacts -->
+    <div id="screenshots" class="screenshots how-to hidden">
+      <div class="content colorado-bug">
+      <h2 class="heading">Screenshots</h2>
+      <img src="images/Screenshots/screenshot-1.png" alt="Screenshot number one">
+      <div class="space"></div>
+      <img src="images/Screenshots/screenshot-2.png" alt="Screenshot number two">
+        <a id="screenshotsClose" class="button">Close</a>
+      </div>
+      <div class="wood"></div>
+    </div>
+    <!--/ Contacts -->
+
+    <!-- How To Play -->
+		<div id="howTo" class="how-to overlay hidden">
+			<div class="content">
+			<h2 class="heading">How to Play</h2>
+				<p>Press the up, down, left and right arrow keys on your keyboard, or W.A.S.D. keys to
+          move the player. Do your best to harvest all potato bushes without
+          being taken down by a bug! Get to the other side of the road to level up!</p>
+				<p>You have 3 lives. Clearing a level is worth 600 points, and a potato
+           bushes of any height is worth 300.</p>
+           <p>Use the skills to kill beetles. But do not forget about the cost of spells. If you go into a minus, you will get 0 points for a potatoes score.</p>
+				<p>Go get em!</p>
+				<a id="howToClose" class="button">Got it!</a>
+			</div>
+		</div>
+    <!--/ How To Play -->
+
+		<!-- Collision -->
+    <div id="collision" class="collision overlay hidden"></div>
+    <!-- /Collision -->
+
+    <!-- Power Beam Effect -->
+    <div id="power-beam-effect" class="power-beam-effect overlay hidden"></div>
+    <!-- /Power Beam Effect -->
+
+    <!-- Ice Cannon Effect -->
+    <div id="ice-cannon-effect" class="ice-cannon-effect overlay hidden"></div>
+    <!-- /Ice CannonEffect -->
+     
+    <!-- Fire Ball Effect -->
+    <div id="fire-ball-effect" class="fire-ball-effect overlay hidden"></div>
+    <!-- /Fire Ball Effect -->
+    
+    <!-- Water Blast Effect -->
+    <div id="water-blast-effect" class="water-blast-effect overlay hidden"></div>
+    <!-- /Water Blast Effect -->
+
+    <!-- Regeneration Effect -->
+    <div id="regeneration-effect" class="regeneration-effect overlay hidden"></div>
+    <!-- /Regeneration Effect -->
+
+		<!-- Game Over -->
+    <div id="gameOver" class="game-over overlay hidden">
+    	<div class="content">
+				<h2 class="heading">Game Over</h2>
+				<div class="final-score">
+          Final Score: <span id="score"></span>
+          <br>
+          Potatoes Collected: <span id="scorePotatoes"></span>
+				</div>
+				<a id="playAgain" class="button">Play Again</a>
+				<img class="responsive" src="images/char-boy-dead.png">
+			</div>
+    </div>
+    <!-- /Game Over -->
+
+     <!-- Modal dialog -->
+     <div class="modal-dialog" id="modal-dialog">
+      <div class="overview">
+        <h4>Choose spell</h4>
+      </div>  
+         <div>
+            <div class="spell-type">
+               <a id="powerBeam"><i class="fas fa-star"></i>Power Beam [5]</a>
+               <a id="iceCannon"><i class="fas fa-snowflake"></i>Ice Cannon [10]</a>
+               <a id="fireBall"><i class="fas fa-fire"></i>Fireball [15]</a>
+               <a id="waterBlast"><i class="fas fa-tint"></i>Water Blast [20]</a>
+            </div>
+         </div>
+         <div class="modal-dialog-footer"></div>
+   </div>
+   <!--/ Modal dialog -->
+
+       <!-- Power Beam Skill -->
+		<div id="powerBeamOpen" class="how-to overlay hidden">
+			<div class="content">
+			<h2 class="heading">Power Beam</h2>
+				<p>The beetles are attacking! We need to complete the task for the successful execution of the skill. Enter the correct variant in the field.</p>
+        <input id="arithmeticsResult" type="text">
+        <h2 id="arithmeticsh2" class="heading"></h2>
+			</div>
+		</div>
+    <!--/ Power Beam Skill -->
+
+      <!-- Ice Cannon Skill -->
+		<div id="iceCannonOpen" class="how-to overlay hidden">
+			<div class="content">
+			<h2 class="heading">Ice Cannon</h2>
+				<p>It's time to use the ice cannon and kill two beetles. Enter the correct translate variant in the field.</p>
+        <input id="translateResult" type="text">
+        <h2 id="translateh2" class="heading"></h2>
+			</div>
+		</div>
+    <!--/ Ice Cannon Skill -->
+
+      <!-- Fire Ball Skill -->
+		<div id="fireBallOpen" class="how-to overlay hidden">
+			<div class="content">
+			<h2 class="heading">Fireball</h2>
+				<p>Suddenly our ally appeared on the field - an ancient dragon! Correctly write the name of the animal whose sounds you will hear, and you will kill caloric beetles with the fiery breath of our friend.</p>
+        <input id="listeningResult" type="text">
+        <br>
+        <br>
+        <div id="media"></div>
+			</div>
+		</div>
+    <!--/ Fire Ball Skill -->
+
+    <!-- Water Blast Skill -->
+		<div id="waterBlastOpen" class="how-to overlay hidden">
+			<div class="content">
+			<h2 class="heading">Water Blast</h2>
+				<p>Oh my God! We forgot about the ability to summon the water elemental. Correctly write the name of the profession in the field and we will punish the evil beetles.</p>
+        <input id="jobsResult" type="text">
+        <br>
+        <br>
+        <div id="mediaJobs"></div>
+			</div>
+		</div>
+    <!--/ Water Blast Skill -->
+
+    
+
+
+
+</body>
+</html>
