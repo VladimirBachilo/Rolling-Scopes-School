@@ -5,10 +5,12 @@
 </div>
 
 <br/>
+
 ![forthebadge](http://forthebadge.com/images/badges/kinda-sfw.svg)
 ![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)
 ![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)
 ![forthebadge](http://forthebadge.com/images/badges/powered-by-responsibility.svg)
+
 <br/>
 
 <div align="center">
@@ -18,7 +20,6 @@
 ## Description
 <div align="center">
   Stickman Warriors is a fighting game in which you must fight against other virtual stickman using your very own deadly stickman warrior and your awesome brain.
-  <br>
   Before you enter the arena you can choose location, customise the appearance of your warrior and give them different guns.
   <br/>
   <br/>
