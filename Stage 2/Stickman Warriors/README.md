@@ -5,12 +5,10 @@
 </div>
 
 <br/>
-<div align="center">
 ![forthebadge](http://forthebadge.com/images/badges/kinda-sfw.svg)
 ![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)
 ![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)
 ![forthebadge](http://forthebadge.com/images/badges/powered-by-responsibility.svg)
-</div>
 <br/>
 
 <div align="center">
