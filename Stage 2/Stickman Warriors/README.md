@@ -5,11 +5,11 @@
 </div>
 
 <br/>
-
+<div align="center">
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
-
+</div>
 <br/>
 
 <div align="center">
