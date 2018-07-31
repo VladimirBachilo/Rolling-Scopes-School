@@ -6,9 +6,10 @@
 
 <br/>
 <div align="center">
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](http://forthebadge.com/images/badges/kinda-sfw.svg)
+![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)
 ![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)
-![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
+![forthebadge](http://forthebadge.com/images/badges/powered-by-responsibility.svg)
 </div>
 <br/>
 
