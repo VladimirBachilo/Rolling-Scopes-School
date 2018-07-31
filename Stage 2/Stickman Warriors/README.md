@@ -9,20 +9,18 @@
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
-![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)
 
 <br/>
 
 <div align="center">
-  <a href=""><img src="SW Game/assets/images/other/play.png" /></a>
+  <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Stickman%20Warriors/SW%20Landing%20Page/index.html"><img src="SW Game/assets/images/other/play.png" /></a>
 </div>
 
 ## Description
 <div align="center">
-  Stickman Warriors is a fighting game in which you must fight against other virtual stickman 
-  using your very own deadly stickman warrior and your awesome brain. 
-  Before you enter the arena you can choose location, customise the 
-  appearance of your warrior and give them different guns.
+  Stickman Warriors is a fighting game in which you must fight against other virtual stickman using your very own deadly stickman warrior and your awesome brain.
+  <br>
+  Before you enter the arena you can choose location, customise the appearance of your warrior and give them different guns.
   <br/>
   <br/>
   <img width="200" height="107" src="SW Landing Page/images/screenshots/1.png" />
