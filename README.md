@@ -5,7 +5,7 @@
   <a href="https://github.com/Bachyla">Uladzimir Bachyla</a>
   <br>
   <br>
-  <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS School">
+  <img src="https://school.rollingscopes.com/images/logo-rsschool.svg" alt="RS School">
   <br>
   <br>
 </div>
