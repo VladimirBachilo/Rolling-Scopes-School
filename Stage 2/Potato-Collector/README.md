@@ -10,7 +10,7 @@ Project of Rolling Scopes School's courses [Web Application Development with Jav
 
 ###### Live
 
-Point your browser to <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Potato-Collector/index.html">PC Live</a>.
+Point your browser to <a href="https://rawcdn.githack.com/Bachyla/Rolling-Scopes-School/f004207460abb555ead103252a24949867ae732e/Stage 2/Potato-Collector/index.html">PC Live</a>.
 
 ###### Local
 

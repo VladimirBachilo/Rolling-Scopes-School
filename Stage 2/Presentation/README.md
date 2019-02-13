@@ -12,4 +12,4 @@
     * Language - English.  
 
 ## Online version
-* [Live preview](https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Presentation/index.html) - Check this out.
+* [Live preview](https://rawcdn.githack.com/Bachyla/Rolling-Scopes-School/f004207460abb555ead103252a24949867ae732e/Stage%202/Presentation/index.html) - Check this out.

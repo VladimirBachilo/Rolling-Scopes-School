@@ -14,7 +14,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Stickman%20Warriors/SW%20Landing%20Page/index.html"><img src="SW Game/assets/images/other/play.png" /></a>
+  <a href="https://rawcdn.githack.com/Bachyla/Rolling-Scopes-School/f004207460abb555ead103252a24949867ae732e/Stage 2/Stickman Warriors/SW Landing Page/index.html"><img src="SW Game/assets/images/other/play.png" /></a>
 </div>
 
 ## Description

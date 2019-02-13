@@ -22,7 +22,7 @@ Are you ready for Hackathon on Train Minsk-Riga?
 <div align="center">
   <img src="https://github.com/Bachyla/Rolling-Scopes-School/blob/master/Stage%202/Code-Jam5/images/railroad/train.png" alt="Train">
   <h2>
-    :tada: <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Code-Jam5/index.html">Live Preview<a> :tada:
+    :tada: <a href="https://rawcdn.githack.com/Bachyla/Rolling-Scopes-School/f004207460abb555ead103252a24949867ae732e/Stage%202/Code-Jam5/index.html">Live Preview<a> :tada:
   </h2>
 </div>
 

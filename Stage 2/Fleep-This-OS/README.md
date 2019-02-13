@@ -9,7 +9,7 @@
 ![forthebadge](http://forthebadge.com/images/badges/fo-real.svg)
 
 <div align="center">
-  <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Fleep-This-OS/index.html"><img src="img/play.png" /></a>
+  <a href="https://rawcdn.githack.com/Bachyla/Rolling-Scopes-School/f004207460abb555ead103252a24949867ae732e/Stage 2/Fleep-This-OS/index.html"><img src="img/play.png" /></a>
 </div>
 
 ## Description

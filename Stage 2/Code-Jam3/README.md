@@ -14,7 +14,7 @@ This will or is probably one of the most important features of ES6 - AJAX/JSON f
 ```
 <div align="center">
   <h2>
-    :tada: <a href="https://rawgit.com/Bachyla/Rolling-Scopes-School/master/Stage%202/Code-Jam3/index.html">Live Preview<a> :tada:
+    :tada: <a href="https://rawcdn.githack.com/Bachyla/Rolling-Scopes-School/f004207460abb555ead103252a24949867ae732e/Stage%202/Code-Jam3/index.html">Live Preview<a> :tada:
   </h2>
 </div>
 
